@@ -1,0 +1,79 @@
+.Cadastro {
+    margin-top: 300px; 
+  }
+  
+  .busca {
+    font-size: large;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .containerPesquisa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .containerPesquisa p {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+    margin-bottom: 0;
+    display: contents;
+  }
+  
+  .containerPesquisa input {
+    padding: 0px;
+    width: 350px;
+    height: 80px;
+    background: #3b3640;
+    border: 4px solid #2000d2;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    outline: none;
+    transition: .5s;
+
+  }
+  
+  .containerPesquisa .inputPesquisa {
+    display: flex;
+    align-items: center;
+  }
+  
+  .containerPesquisa .inputPesquisa i {
+    font-size: 20px;
+    color: #ffd52d;
+    transition: 0.2s;
+  }
+  
+  .containerPesquisa .inputPesquisa:hover i {
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .containerPesquisa button {
+    margin-top: 1%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .containerPesquisa button:hover {
+    background-color: #2980b9;
+  }
+  
+  .containerPesquisa p {
+    margin-top: 45%;
+    font-size: 18px;
+    color: #333;
+  }
+  
